@@ -63,6 +63,12 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
 
         :)
 
+
+#### 7. Added html template to home page
+
+        modified:   README.md
+        modified:   apps/page/templates/page/home_page.html
+
       
 
 
