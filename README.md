@@ -29,7 +29,19 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
-        
+
+
+#### 4. Created django app 'page'
+
+        modified:   README.md
+        new file:   apps/page/__init__.py
+        new file:   apps/page/admin.py
+        new file:   apps/page/apps.py
+        new file:   apps/page/migrations/__init__.py
+        new file:   apps/page/models.py
+        new file:   apps/page/tests.py
+        new file:   apps/page/views.py
+      
 
 
 
