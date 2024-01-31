@@ -19,6 +19,16 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         ...
         Successfully installed pip-23.3.2
 
+
+#### 3. Created django project 'config'
+
+        modified:   README.md
+        new file:   config/__init__.py
+        new file:   config/asgi.py
+        new file:   config/settings.py
+        new file:   config/urls.py
+        new file:   config/wsgi.py
+        new file:   manage.py
         
 
 
