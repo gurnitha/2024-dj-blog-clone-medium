@@ -47,11 +47,21 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
 
         (dj-cln-medium) λ python manage.py check
         System check identified no issues (0 silenced).
-        
+
         modified:   README.md
         modified:   apps/page/apps.py
         modified:   config/settings.py
 
+
+#### 6. Created home page using templates, views, and urls
+
+        modified:   README.md
+        new file:   apps/page/templates/page/home_page.html
+        new file:   apps/page/urls.py
+        modified:   apps/page/views.py
+        modified:   config/urls.py
+
+        :)
 
       
 
