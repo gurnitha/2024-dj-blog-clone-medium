@@ -41,6 +41,18 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         new file:   apps/page/models.py
         new file:   apps/page/tests.py
         new file:   apps/page/views.py
+
+
+#### 5. Registered page to config/settings.py and run check
+
+        (dj-cln-medium) λ python manage.py check
+        System check identified no issues (0 silenced).
+        
+        modified:   README.md
+        modified:   apps/page/apps.py
+        modified:   config/settings.py
+
+
       
 
 
