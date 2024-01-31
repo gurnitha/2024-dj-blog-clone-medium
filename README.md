@@ -69,6 +69,18 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         modified:   README.md
         modified:   apps/page/templates/page/home_page.html
 
+
+#### 8. Setup and loaded static files
+
+        modified:   README.md
+        modified:   apps/page/templates/page/home_page.html
+        modified:   config/settings.py
+        new file:   config/static/css/bootstrap.min.css
+        new file:   config/static/css/bootstrap.min.css.map
+        new file:   config/static/css/style.css
+        new file:   config/static/js/bootstrap.bundle.min.js
+        new file:   config/static/js/bootstrap.bundle.min.js.map
+
       
 
 
