@@ -184,6 +184,12 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         Note: Register, login, and logout all with flash messages.
 
         :)
+
+
+#### 7. Added menu for login, logout
+
+        modified:   README.md
+        modified:   apps/page/templates/page/_navbar.html
       
 
 
