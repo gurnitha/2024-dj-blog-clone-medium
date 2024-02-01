@@ -190,6 +190,14 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
 
         modified:   README.md
         modified:   apps/page/templates/page/_navbar.html
+
+
+#### 8. Added conditional to show/hide some menus to logged in and un-login user
+
+        modified:   README.md
+        modified:   apps/page/templates/page/_navbar.html
+
+        :)
       
 
 
