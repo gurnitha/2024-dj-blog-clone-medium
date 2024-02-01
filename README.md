@@ -104,6 +104,16 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
 ## 2. USERS
 
 
+#### 1. Create app 'accounts'
+
+        modified:   README.md
+        new file:   apps/accounts/__init__.py
+        new file:   apps/accounts/admin.py
+        new file:   apps/accounts/apps.py
+        new file:   apps/accounts/migrations/__init__.py
+        new file:   apps/accounts/models.py
+        new file:   apps/accounts/tests.py
+        new file:   apps/accounts/views.py
       
 
 
