@@ -1,0 +1,35 @@
+{% extends "accounts/base.html" %}
+
+{% block content %} 
+
+{% load crispy_forms_tags %}
+
+<!--Login--> 
+<div class="container" style="margin-top:200px">
+    <div class="row">
+        <div class="col-sm-6 offset-sm-3">
+            {% include 'accounts/_messages.html' %}
+
+            <h1>Login</h1>
+
+            <form method="POST">
+                {% csrf_token %}
+
+                <div class="mb-3">
+                {{ login_form.username|as_crispy_field }}
+                </div>
+
+                <div class="mb-3">
+                {{ login_form.password|as_crispy_field }}
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn btn-primary" type="submit">Login</button>
+                    <p class="text-center">Don't have an account? <a href="{% url 'accounts:user_register' %}">Create an account</a> 
+                    or <span><a href="{% url 'page:home_page' %}">&larr; Back</a></span>  instead.</p>
+                </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

@@ -165,6 +165,16 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
 
         :)
 
+
+#### 5. Logged in a registered user
+
+        new file:   apps/accounts/templates/accounts/login.html
+        modified:   apps/accounts/urls.py
+        modified:   apps/accounts/views.py
+
+        :)
+
+
       
 
 
