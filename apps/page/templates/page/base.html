@@ -1,0 +1,34 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MD Clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <!-- NAVBAR -->
+    {% include 'page/_navbar.html' %}
+    <!-- NAVBAR END -->
+
+    <!-- HERO -->
+    {% include 'page/_hero.html' %}
+    <!-- HERO END -->
+
+    <!-- TRENDING -->
+    {% include 'page/_trending.html' %}
+    <!-- TRENDING END -->
+
+    <!-- OTHER POSTS -->
+    {% include 'page/_other_posts.html' %}
+    <!-- OTHER POSTS -->
+
+    <!-- NAVBAR -->
+    {% include 'page/_footer.html' %}
+    <!-- NAVBAR END -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

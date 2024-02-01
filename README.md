@@ -81,6 +81,23 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         new file:   config/static/js/bootstrap.bundle.min.js
         new file:   config/static/js/bootstrap.bundle.min.js.map
 
+
+#### 9. Template inheritance
+
+        modified:   README.md
+        new file:   apps/page/templates/page/_footer.html
+        new file:   apps/page/templates/page/_hero.html
+        new file:   apps/page/templates/page/_navbar.html
+        new file:   apps/page/templates/page/_other_posts.html
+        new file:   apps/page/templates/page/_trending.html
+        new file:   apps/page/templates/page/base.html
+        deleted:    apps/page/templates/page/home_page.html
+        new file:   apps/page/templates/page/index.html
+        modified:   apps/page/views.py
+
+        :)
+
+
       
 
 
