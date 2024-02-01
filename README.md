@@ -208,6 +208,12 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         :)
 
 
+#### 10. Modified navbar in the footer 
+
+        modified:   README.md
+        modified:   apps/page/templates/page/_footer.html
+
+        :)
 
 
 
