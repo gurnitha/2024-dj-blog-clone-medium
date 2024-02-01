@@ -16,9 +16,10 @@ def user_register(request):
 		if form.is_valid():
 			user = form.save()
 			login(request, user)
-			messages.success(request, "Sign up successfull.")
+			messages.success(request, f'{request.user.username } Sign up successfull.')
 			return redirect("page:home_page")
-		messages.error(request, "Unsuccessful sign up. Invalid information.")
+		# messages.error(request, "Unsuccessful sign up. Invalid information.")
+		messages.error(request, 'Unsuccessful sign up. Invalid information.')
 	form = NewUserForm()
 	data = { "register_form":form }
 	return render(request, 'accounts/register.html', data)

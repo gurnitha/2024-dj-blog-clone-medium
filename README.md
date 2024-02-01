@@ -145,6 +145,26 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         :)
 
 
+#### 3. Register a new user
+
+        modified:   apps/accounts/views.py
+        new file:   apps/page/templates/page/_messages.html
+        modified:   apps/page/templates/page/base.html
+
+        NOTE: Successfully showed flash messages
+
+
+#### 4. Showing error messages to unsuccessful registered user
+
+        new file:   apps/accounts/templates/accounts/_messages.html
+        modified:   apps/accounts/templates/accounts/register.html
+        modified:   apps/accounts/views.py
+        new file:   apps/page/templates/page/_messages.html
+        modified:   apps/page/templates/page/base.html
+        modified:   config/settings.py
+
+        :)
+
       
 
 
