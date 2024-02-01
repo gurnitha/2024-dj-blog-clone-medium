@@ -175,6 +175,15 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         :)
 
 
+#### 6. Logged out a logged in user
+
+        modified:   README.md
+        modified:   apps/accounts/urls.py
+        modified:   apps/accounts/views.py
+
+        Note: Register, login, and logout all with flash messages.
+
+        :)
       
 
 

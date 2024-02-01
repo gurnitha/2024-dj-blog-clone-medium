@@ -3,7 +3,7 @@
 # Django and third parties modules
 from django.shortcuts import render, redirect 
 from apps.accounts.forms import NewUserForm
-from django.contrib.auth import login, authenticate  
+from django.contrib.auth import login, authenticate, logout  
 from django.contrib import messages 
 from django.contrib.auth.forms import AuthenticationForm
 
@@ -46,3 +46,8 @@ def user_login(request):
 	data = {'login_form':form}
 	return render(request, 'accounts/login.html', data)
 
+
+def user_logout(request):
+    logout(request)
+    messages.success(request, 'You are logged out.')
+    return redirect("page:home_page")
