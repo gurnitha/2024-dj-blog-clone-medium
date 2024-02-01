@@ -198,8 +198,14 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         modified:   apps/page/templates/page/_navbar.html
 
         :)
-      
 
+
+#### 9. Showing the logged in username in the navbar 
+      
+        modified:   README.md
+        modified:   apps/page/templates/page/_navbar.html
+
+        :)
 
 
 
