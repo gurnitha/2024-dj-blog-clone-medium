@@ -3,6 +3,9 @@ Based on: https://github.com/hakanyalcinkayadev/Uctan-Uca-Projelerle-Sifirdan-Fu
 MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
 
 
+## 1. SETUP
+
+
 #### 1. Initial setup after creating remote repository
 
         modified:   .gitignore
@@ -96,6 +99,9 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         modified:   apps/page/views.py
 
         :)
+
+
+## 2. USERS
 
 
       
