@@ -1,0 +1,42 @@
+{% extends "accounts/base.html" %}
+
+{% block content %} 
+
+{% load crispy_forms_tags %}
+
+<!--Register--> 
+<div class="container" style="margin-top:200px">
+    <div class="row">
+
+        <div class="col-sm-6 offset-sm-3">
+			<h1>Register</h1><br>
+			<form method="POST">
+
+				{% csrf_token %}
+
+				<div class="mb-3">
+		        {{ register_form.username|as_crispy_field }}
+		      	</div>
+
+				<div class="mb-3">
+		        {{ register_form.email|as_crispy_field }}
+		      	</div>
+
+				<div class="mb-3">
+		        {{ register_form.password1|as_crispy_field }}
+		      	</div>
+				<div class="mb-3">
+		        {{ register_form.password2|as_crispy_field }}
+		      	</div>
+
+				<div class="mb-3">
+		        <button class="btn btn-primary" type="submit">Register</button>
+		        <p class="text-center">If you already have an account, <a href="/login">Log In</a> 
+		        	or <span><a href="{% url 'page:home_page' %}">&larr; Back</a></span>  instead.</p>
+		      	</div>
+			</form>
+		</div>
+
+	</div>
+</div>
+{% endblock %}

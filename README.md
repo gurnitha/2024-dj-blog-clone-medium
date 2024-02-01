@@ -127,6 +127,24 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
 
         :)
 
+
+#### 3. Register a new user
+
+        modified:   README.md
+        new file:   apps/accounts/forms.py
+        new file:   apps/accounts/templates/accounts/base.html
+        new file:   apps/accounts/templates/accounts/register.html
+        new file:   apps/accounts/urls.py
+        modified:   apps/accounts/views.py
+        modified:   apps/page/templates/page/_navbar.html
+        modified:   config/settings.py
+        modified:   config/urls.py
+
+        NOTE: Successful register a new user
+
+        :)
+
+
       
 
 
