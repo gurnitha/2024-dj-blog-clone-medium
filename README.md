@@ -114,6 +114,19 @@ MyGihub: https://github.com/gurnitha/2024-dj-blog-clone-medium
         new file:   apps/accounts/models.py
         new file:   apps/accounts/tests.py
         new file:   apps/accounts/views.py
+
+
+#### 2. Register accounts to config/settings.py
+
+        (dj-cln-medium) λ python manage.py check
+        System check identified no issues (0 silenced).
+
+        modified:   README.md
+        modified:   apps/accounts/apps.py
+        modified:   config/settings.py
+
+        :)
+
       
 
 
